@@ -68,10 +68,44 @@
 
                                 <dd>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed quaerat illum harum. Velit provident ea minima, voluptate reiciendis excepturi asperiores debitis. Tempore nobis id, quia ducimus voluptatibus ratione quas placeat! <br> <br></dd>
                             </dl>
+                            <form>
+                                <fieldset>
+                                <legend><b>NA KONTAKTONI</b></legend>
+                                <input type="name" name="emri" placeholder="Shkurani emrin tuaj">
+                                <br> <br>
+                                <input type="surname" name="mbiemri" placeholder="shkruani mbiemrin tuaj">
+                                <br> <br>
+                                <input type="tel" name="Nr.Tel" id="" min="4" max="11" placeholder="Nr.Tel">
+                                <br><br>
+                                <input type="email" name="email" placeholder="Shkruani email adressen tuaj">
+                                <br> <br>
+                                <input type="radio" name="gender" id="male">
+                                <label for="male">Male</label>
+                                <input type="radio" name="gender" id="female">
+                                <label for="female">Female</label>
+                                <br><br>
+                                <label for="zgjedhja">PEr cfare jeni te interesuar:</label>
+                                <input list="punet" name="punet" id="zgjedhja">
+                                <datalist id="zgjedhja">
+                                    <option value="">Dizajnime</option>
+                                    <option value="">Instalime</option>
+                                    <option value="">Mirembajtje</option>
+                                </datalist>
+                                <br><br>
+                                <label for="message">Shkurani nje mesazh:</label>
+                                <textarea name="message" id="message" cols="30" rows="10"></textarea>
+                                <br><br>
+                                <label for="">Ngarkoni nje foto tuajen:</label>
+                                <input type="file" name="image" id="image">
+                                <br><br>
+                                <button name="submit">Dergo te dhenat!</button>
+                            </fieldset>
+                            </form>
                         </td>
                     </tr>
                 </table>
         </tr>
     </table>
+    
 </body>
 </html>
